@@ -228,7 +228,7 @@ text-decoration: none;
    
 
 #select-tech {
-	border-color: #008B8B;
+	border-color: #3366cc;
 }
 
 #select-gaming {
@@ -279,7 +279,7 @@ text-decoration: none;
 	float: left;
 	margin-left: 25px;
 	font-weight: 600;
-	color: #008B8B;
+	color: #3366cc;
 }
 
 #final-article-copy:hover {
@@ -583,7 +583,7 @@ font-weight:bold;
     height:144px;
     width:256px;
     border:solid;
-    border-color: var(--contentColor);
+    border-color: #3366cc;
 }
 #submit-button {
     display: block;
