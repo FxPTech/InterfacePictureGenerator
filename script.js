@@ -163,7 +163,7 @@ function putTemplate() {
                     c = c.toDataURL("image/jpeg");
                     $("#Finale").fadeIn("slow");
                     $("#imageR").fadeIn("slow");
-                    $('#imageR').css("border", "solid #008b8b");
+                    $('#imageR').css("border", "solid #3366cc");
                     document.getElementById('imageR').src = c;
                     if($('#imageR').is(":visible"))
                     {
