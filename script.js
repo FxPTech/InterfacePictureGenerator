@@ -34,16 +34,16 @@ $(document).ready(function () {
     //    showButton();
     //    empty = false;
     //})
-    $('#empty_label').on('click', function () {
-        document.getElementsByName('dept')[0].checked = true;
-        showButton();
-        empty = true;
-    })
-    $('#tech_label').on('click', function () {
-        document.getElementsByName('dept')[1].checked = true;
-        showButton();
-        empty = false;
-    })
+    //$('#empty_label').on('click', function () {
+    //    document.getElementsByName('dept')[0].checked = true;
+    //    showButton();
+    //    empty = true;
+    //})
+    //$('#tech_label').on('click', function () {
+    //    document.getElementsByName('dept')[1].checked = true;
+    //    showButton();
+    //    empty = false;
+    //})
     //$('#movies_label').on('click', function () {
     //    document.getElementsByName('dept')[3].checked = true;
     //    showButton();
@@ -155,7 +155,7 @@ function putTemplate() {
         imageObj1.onload = function () {
             console.log("loaded");
             ctx.drawImage(imageObj1, 0, 0, 256, 144);
-            empty=true;
+            empty = true;
             if(!empty){
             imageObj2.src = template_loc;
             imageObj2.onload = function () {
