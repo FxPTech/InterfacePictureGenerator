@@ -583,6 +583,7 @@ font-weight:bold;
     height:144px;
     width:256px;
     border:solid;
+    margin-down: 15px;
     border-color: #3366cc;
 }
 #submit-button {
