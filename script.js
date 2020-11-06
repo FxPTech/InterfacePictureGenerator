@@ -34,11 +34,11 @@ $(document).ready(function () {
     //    showButton();
     //    empty = false;
     //})
-    //$('#empty_label').on('click', function () {
-    //    document.getElementsByName('dept')[0].checked = true;
-    //    showButton();
-    //    empty = true;
-    //})
+    $('#empty_label').on('click', function () {
+        document.getElementsByName('dept')[0].checked = true;
+        showButton();
+        empty = true;
+    })
     //$('#tech_label').on('click', function () {
     //    document.getElementsByName('dept')[1].checked = true;
     //    showButton();
@@ -60,11 +60,11 @@ $(document).ready(function () {
     //    document.getElementsByName('dept')[3].checked = true;
     //    showButton();
     //})
-    document.getElementsByName('dept')[1].checked = true;
+    /*document.getElementsByName('dept')[1].checked = true;
     $('input:radio[name="dept"]').change(
     function () {
         showButton();
-    });
+    });*/
 });
 function showButton() {
     $('#submit').fadeIn("slow");
@@ -135,12 +135,12 @@ function putTemplate() {
         imageObj1.height = 144;
         imageObj1.width = 256;
         var depts = document.getElementsByName('dept');
-        /*for (var i = 0, length = depts.length; i < length; i++) {
+        for (var i = 0, length = depts.length; i < length; i++) {
             if (depts[i].checked) {
                 // do whatever you want with the checked radio
                 var dept = depts[i].value;
                 break;
-            }*/
+            }
         }
         var template_loc = "images/";
         template_loc = "emptyTemplate.png";
@@ -155,7 +155,7 @@ function putTemplate() {
         imageObj1.onload = function () {
             console.log("loaded");
             ctx.drawImage(imageObj1, 0, 0, 256, 144);
-            empty = true;
+            //empty = true;
             if(!empty){
             imageObj2.src = template_loc;
             imageObj2.onload = function () {
