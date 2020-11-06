@@ -10,6 +10,90 @@
 	/*font-weight: bold;*/
       box-sizing: inherit;
 }
+
+body{ /*Background*/
+    background-image: url("https://i.imgur.com/JTW1H0Z.png");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    background-color: #d9d9d9;
+    overflow-x: hidden;
+}
+.second{
+    /*text-align:right;*/
+	color: #ffffff;
+	background: #daa520;
+	height: 40px;
+	border: 0;
+	border-bottom: 4px solid #856514;
+	border-radius: 10px;
+	margin-top: 30px;
+    /*unselectable*/
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.second:hover {
+	background: #c8981e;
+	cursor: pointer;
+}
+
+.second:active {
+	background: #daa520;
+}
+.sepline {
+    width: 40%;
+}
+
+.thanks {
+font-size:large;
+color: #daa520;
+text-align:center;
+direction:rtl;
+font-weight:bold;
+}
+.thankstitle {
+    color: red;
+    font-weight: 900;
+    font-size: 1.6em;
+    text-align:center;
+}
+.footerlinks {
+    right:23%;
+    position:relative;
+    color:#008080;
+    font-weight: bold;
+    top:5%;    
+}
+.footerrest {
+        text-align:center;
+    position:relative;
+    top: 5%;
+}
+.footersmiley {
+    right:23%;
+    position:relative;
+    top: 5%;
+    color:#000000;
+    font-weight:900;
+    font-size:large;
+}
+.footerimg{
+    position: relative;
+}
+.footerbr{
+    line-height: 150%;
+}
+/*=-========================*/
+.dept {
+    color:#008080;
+    font-weight:600;
+}
+    .dept:hover {
+        text-decoration:underline #008080;
+    }
 .section1 {   
     width: 200%; /* Full width */
     height: 100%; /* Full height */
