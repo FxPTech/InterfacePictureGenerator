@@ -60,7 +60,7 @@ $(document).ready(function () {
     //    document.getElementsByName('dept')[3].checked = true;
     //    showButton();
     //})
-
+    document.getElementsByName('dept')[1].checked = true;
     $('input:radio[name="dept"]').change(
     function () {
         showButton();
@@ -155,6 +155,7 @@ function putTemplate() {
         imageObj1.onload = function () {
             console.log("loaded");
             ctx.drawImage(imageObj1, 0, 0, 256, 144);
+            empty=true;
             if(!empty){
             imageObj2.src = template_loc;
             imageObj2.onload = function () {
