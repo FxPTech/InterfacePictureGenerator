@@ -143,14 +143,15 @@ function putTemplate() {
             }*/
         }
         var template_loc = "images/";
-        switch (0) {
+        template_loc = "emptyTemplate.png";
+        /*switch (0) {
             default: template_loc = "emptyTemplate.png";
                 break;
             case "empty": template_loc += "emptyTemplate.png";
                 break;
             case "tech": template_loc += "techTemplate.png";
                break;
-        }
+        }*/
         imageObj1.onload = function () {
             console.log("loaded");
             ctx.drawImage(imageObj1, 0, 0, 256, 144);
