@@ -135,15 +135,15 @@ function putTemplate() {
         imageObj1.height = 144;
         imageObj1.width = 256;
         var depts = document.getElementsByName('dept');
-        for (var i = 0, length = depts.length; i < length; i++) {
+        /*for (var i = 0, length = depts.length; i < length; i++) {
             if (depts[i].checked) {
                 // do whatever you want with the checked radio
                 var dept = depts[i].value;
                 break;
-            }
+            }*/
         }
         var template_loc = "images/";
-        switch (dept) {
+        switch (0) {
             default: template_loc = "emptyTemplate.png";
                 break;
             case "empty": template_loc += "emptyTemplate.png";
