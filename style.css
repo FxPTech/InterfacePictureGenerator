@@ -10,6 +10,27 @@
 	/*font-weight: bold;*/
       box-sizing: inherit;
 }
+.section1 {   
+    width: 200%; /* Full width */
+    height: 100%; /* Full height */
+    position:sticky;
+    display: block;
+}
+
+@media screen and (max-width: 1750px) {
+    .tooltips {
+        visibility:hidden;
+    }
+}
+/*Selection*/
+::selection {
+    background: #008080; /* WebKit/Blink Browsers */
+    color: #000000;
+}
+::-moz-selection {
+    background: #008080; /* Gecko Browsers */
+    color: #000000;
+}
 
 /*==ONLY MATTERS FROM HERE=======*/
 .finalethumb {
