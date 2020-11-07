@@ -386,7 +386,7 @@ li::before {
 body{ /*Background*/
     background-image: url("https://i.imgur.com/JTW1H0Z.png");
     filter: blur(8px);
-    -webkit-filter: blur(8px);
+    /*-webkit-filter: blur(8px);*/
     height: 100%;
     /* Center and scale the image nicely */
     background-position: center;
